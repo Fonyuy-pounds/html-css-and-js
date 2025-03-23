@@ -16,27 +16,38 @@
             <button class="btn" id="getstarted">Get Started</button>
         </div>
     </div>
+    
     <div class="popup" id="poppupcontainer" style="display: none;">
         <div class="popup-content">
             <span class="close-btn" id="close">&times;</span>
             <h2 class="form-title">Sign up to IWS Market</h2>
-            <form action="" class="form-group">
+            <form action="./product.html" class="form-group" id="formcontainer">
                 <div class="form-group">
                     <label for="username">Username</label>
                     <input type="text" placeholder="Enter your username" id="username">
                 </div>
+
+
                 <div class="form-group">
                     <label for="password">Password</label>
-                    <input type="password" placeholder="Enter your password" id="password">
+                    <input type="password" placeholder="Enter your password" id="password"
+                    required>
                 </div>
                 <div class="form-group">
                     <label for="confirm-password">Confirm Password</label>
-                    <input type="password" placeholder="Confirm your password" id="confirm-password">
+
+                    <input type="password" placeholder="Confirm your password" id="confirm-password"
+                    required>
                 </div>
+
+
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="email" placeholder="Enter your email" id="email">
+                    <input type="email" placeholder="Enter your email" id="email"
+                    required>
                 </div>
+                <button type="summit" class="btn"> get Started</button>
+
             </form>
         </div>
     </div>
